@@ -41,9 +41,9 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: frontend
-  namespace: edu31
+  namespace: edu9
 spec:
-  host: frontend-edu31.apps.211-34-231-82.nip.io
+  host: frontend-edu9.apps.211-34-231-82.nip.io
   port:
     targetPort: 80
 #  tls:
